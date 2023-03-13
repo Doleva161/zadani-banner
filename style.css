@@ -23,7 +23,9 @@ body {
 
 .banner {
   background-color: #e74c3c;
-}
+  }
+
+  
 .obdelnik {
   background-color: #2ecc71;
 }
@@ -33,3 +35,7 @@ Nastavte CSS pro třídu .banner tak, aby:
 - ve výchozím stavu (=na mobilu) bude banner skrytý
 - na obrazovce širší než 800px se banner zobrazí
 */
+@media only screen and (max-width: 800px) {
+.banner {
+display: none;
+}}
